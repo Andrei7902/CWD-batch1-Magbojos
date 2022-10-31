@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Comaptible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">      
+        <title>Document</title>
+</head>
+<body class="grey darken-3">
+    <div class="container">
+        <h1 class="pink-text">Modal</h1>
+        <!--Modal trigger-->
+        <div class="row">
+            <div class="col s12 m6">       
+                <a href="#modal1" class="modal-trigger">
+                <div class="card">
+                <div class="card-image">
+                    <img src="images/sand.jpg">
+                    <span class="card-title">Card Title</span>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, sed et quam, molestias natus doloremque sint voluptates praesentium iusto at delectus nihil maiores magnam ex consequuntur in explicabo corporis error.</p>
+                    </div>
+                </div>
+              </a>
+                      <!-- Modal Trigger-->
+        <a href="activity2.html" class="btn b waves-effect waves-light modal-trigger">Home</a>
+        <!-- Modal Trigger-->
+        <a href="#Modal3" class="btn red waves-effect waves-light modal-trigger">Modal3</a>
+        <br><br>
+        </div>
+        <div class="col s12 m6">
+            <div class="card-panel blue darken-2 z-depth-1">
+                <div class="row valign-wrapper">
+                    <div class="col s12">
+                        <img src="images/ocea.jpg" alt="" class="circle responsive-img">
+                    </div>
+                    <div class="col s8">
+                        <span class="black-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt nam deserunt ad magni perferendis in beatae eum autem rerum voluptatibus iste, obcaecati, doloribus dolore. Libero blanditiis recusandae error obcaecati alias!</span>    
+                    </div>
+                </div>            
+            </div>
+            <img src="images/ocea.jpg" alt="" class="responsive-img z-depth-3">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="video-container">
+                    <iframe width="1214" height="683" src="https://www.youtube.com/embed/fJEbVCrEMSE" title="Visual Studio Code 2022 | Web Dev Setup | Top Extensions, Themes, Settings, Tips & Tricks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12">
+                <video src="" class="responsive-video" controls>
+                    <source src="videos/video1.mp4" type="video/mp4">
+                </video>        
+            </div>
+        </div>
+      
+           
+
+         <!-- Modal Structure-->
+         <div id="modal2" class="modal">
+            <div class="modal-content">
+             <h4>Modal Header</h4>
+             <p>A bunch of text</p>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laboriosam animi incidunt enim magni illo, eos laudantium cum, esse veniam exercitationem consequatur ipsam, odit inventore omnis itaque accusamus explicabo quo.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="" class="modal-close waves-effect waves-light btn-flat">agree</a>
+            </div>
+        </div>
+        
+
+        <!-- Modal Structure-->
+        <div id="Modal3" class="modal">
+            <div class="modal-content">
+             <h4>Modal Header</h4>
+             <p>A bunch of text</p>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eaque, quibusdam, esse voluptate natus quod enim repellendus quo nostrum dolore molestiae modi autem dolorem. Ea blanditiis vero a accusamus ratione.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="" class="modal-close waves-effect waves-light btn-flat">agree</a>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- End of the container-->
+    </div>
+
+
+        <!-- Jquesry CDN-->
+        <script
+        src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+          <!-- Compiled and minified JavaScript -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>   
+
+       <script>
+         $(document).ready(function(){
+        $('.modal').modal();
+      });
+
+       </script>
+      
+                
+</body>
+</html>
+
+<!-- Create modal.html-->
+<!-- DO the modal component, modal with button trigger, Modals with Fixed Footer, Button Sheet Modals -->

@@ -1,0 +1,25 @@
+h2 {
+    color: beige;               
+}
+
+body {
+    background: grey;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8%;
+} 
+
+
+.box {
+    background: blue;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
